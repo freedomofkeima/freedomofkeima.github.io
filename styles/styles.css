@@ -484,6 +484,7 @@ h1 {
 
 .blog-area p {
     font-family: Raleway;
+    font-size: 18px;
 }
 
 .blog-title {
@@ -531,7 +532,7 @@ h1 {
 
 #profile  p{
     font-family: Raleway;
-    font-size: 1.1em;
+    font-size: 18px;
 }
 
 #profile h1, h2 {
@@ -582,7 +583,7 @@ h1 {
 
 #contact-me p {
     font-family: Raleway;
-    font-size: 1.1em;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -595,7 +596,7 @@ h1 {
 .info-mail h3 {
     text-align: center;
     color: #eee;
-    font-size: 1.5em;
+    font-size: 20px;
 }
 
 @media (max-device-width: 600px) {
@@ -649,6 +650,7 @@ h1 {
 #sf p {
     color: #fff;
     font-family: Raleway;
+    font-size: 18px;
 }
 
 #sf i {
