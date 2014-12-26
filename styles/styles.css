@@ -363,7 +363,7 @@ h1 {
 #portfolio {
     width: 100%
     margin-top: 25px;
-    padding-top: 35px;
+    padding-top: 25px;
     padding-bottom: 35px;
 }
 
@@ -429,7 +429,7 @@ h1 {
 #code-area {
     background: #f2f2f2;
     margin-top: 25px;
-    padding-top: 35px;
+    padding-top: 25px;
     padding-bottom: 35px;
 }
 #code-area h3 {
@@ -463,7 +463,7 @@ h1 {
 /** Blog Section */
 .blog-area {
     margin-top: 25px;
-    padding-top: 35px;
+    padding-top: 25px;
     padding-bottom: 35px;
 }
 
@@ -517,7 +517,7 @@ h1 {
 #profile {
     background: #f2f2f2;
     margin-top: 25px;
-    padding-top: 35px;
+    padding-top: 25px;
     padding-bottom: 35px;
     color: #222;
 }
@@ -576,7 +576,7 @@ h1 {
 #contact-me  {
     color: #fff;
     margin-top: 25px;
-    padding-top: 35px;
+    padding-top: 25px;
     padding-bottom: 35px;
 }
 
@@ -595,15 +595,74 @@ h1 {
 .info-mail h3 {
     text-align: center;
     color: #eee;
+    font-size: 1.5em;
 }
 
-@media (max-width: 600px) {
+@media (max-device-width: 600px) {
     .info-mail {
         width:90%;
         padding:15px 0px;
     }
 }
 /** End of Contact Me Area Section */
+
+/** Social Media Section */
+#social-media-info {
+    background: #f2f2f2;
+    color: #1abc9c;
+    text-align: center;
+}
+
+#sf {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background: #f2f2f2;
+}
+    
+#sf .container {
+    width: 100%;
+}
+    
+#sf .col-lg-3 {
+    margin-top: 10px;
+}
+
+#sf .lg {
+    background-color: #1abc9c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#sf .dg {
+    background-color: #16a085;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#sf h4 {
+    color: #fff;
+    font-family: Raleway;
+}
+
+#sf p {
+    color: #fff;
+    font-family: Raleway;
+}
+
+#sf i {
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#sf i:hover {
+    color: #333;
+}
+/** End of Social Media Section */
 
 /** Footer Section */
 #footer {
