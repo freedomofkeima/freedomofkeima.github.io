@@ -67,6 +67,10 @@ button {
 /** End of 'button' section */
 
 /** PACE JS Section */
+.pace-running {
+  overflow-x: hidden;
+}
+
 .pace-running .content {
   display: none;
 }
@@ -337,7 +341,7 @@ body {
 /** 'h1' Section */
 h1 {
     font-family: Raleway, Helvetica, Arial, sans-serif;
-    font-size: 43px;
+    font-size: 42px;
     font-weight: 800;
     letter-spacing: .15em;
     text-transform: uppercase;
