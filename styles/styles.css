@@ -42,6 +42,8 @@ a:before, a:after {
     -o-transition: color .1s ease-in, background .1s ease-in;
     transition: color .1s ease-in, background .1s ease-in;
 }
+
+
 /** End of 'a' section */
 
 /** 'button' section */
@@ -378,8 +380,9 @@ h1 {
     color: #fff;
 }
 
-.mt {
-    padding-top: 25px;
+.md-content p {
+    font-family: Raleway;
+    font-size: 18px;
 }
 
 #lg {
@@ -436,6 +439,11 @@ h1 {
     padding-top: 25px;
     padding-bottom: 35px;
 }
+
+#code-area h1 {
+    padding-bottom: 25px;
+}
+
 #code-area h3 {
     font-family: Raleway;
     font-weight: 300;
@@ -457,6 +465,10 @@ h1 {
     margin-top: 22px;
 }
 
+#code-area a {
+    color: #1abc9c;
+}
+
 #code-area a:hover, a:focus {
     color: #00CC00;
     text-decoration: none;
@@ -469,6 +481,10 @@ h1 {
     margin-top: 25px;
     padding-top: 25px;
     padding-bottom: 35px;
+}
+
+.blog-area h1 {
+    padding-bottom: 25px;
 }
 
 .blog-area a {
@@ -590,6 +606,10 @@ h1 {
     margin-top: 25px;
     padding-top: 25px;
     padding-bottom: 35px;
+}
+
+#contact-me h1 {
+    padding-bottom: 25px;
 }
 
 #contact-me p {
