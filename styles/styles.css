@@ -30,7 +30,7 @@ a {
 }
 
 a:hover, a:focus {
-    color: #7b7b7b;
+    color: #aaa;
     text-decoration: none;
     outline: 0;
 }
@@ -374,6 +374,10 @@ h1 {
     border-bottom-right-radius: 15em 1em;
 }
 
+.md-content h3 {
+    color: #fff;
+}
+
 .mt {
     padding-top: 25px;
 }
@@ -533,10 +537,17 @@ h1 {
 #profile  p{
     font-family: Raleway;
     font-size: 18px;
+    line-height: 200%;
 }
 
-#profile h1, h2 {
+#profile h4 {
+    font-family: Raleway;
+    line-height: 200%;
+}
+
+#profile h1, h2, h3 {
     color: #1abc9c;
+    line-height: 200%;
 }
 
 .circular-image {
