@@ -376,13 +376,22 @@ h1 {
     border-bottom-right-radius: 15em 1em;
 }
 
+@media only screen and (max-device-width: 600px) {
+  .portfolio-image {
+      max-width: 150px;
+      max-height: 125px;
+      border-top-left-radius: 15em 1em;
+      border-bottom-right-radius: 15em 1em;
+  }
+}
+
 .md-content h3 {
     color: #fff;
 }
 
 .md-content p {
     font-family: Raleway;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 #lg {
